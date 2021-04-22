@@ -7,7 +7,7 @@ section {
 }
 
 .hero {
-  background-color: teal;
+  background-color: #0a1536;
   height: 100vh;
   color: white;
   font-size: 40px;
@@ -15,7 +15,7 @@ section {
 
 footer {
   height: 300px;
-  background-color: black;
+  background-color: #0a1536;
   color: white;
   text-align: center;
   padding: 80px;
@@ -23,18 +23,19 @@ footer {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 ul {
   display: flex;
   list-style-type: none;
   width: 500px;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 30px;
 }
 
 li {
+  width: 200px;
   text-decoration: none;
 }
 
@@ -82,9 +83,10 @@ p {
 }
 
 .photo {
-  width: 300px;
+  width: 275px;
 }
 
+/* Project cards section */
 .photo-container {
   display: flex;
   align-items: center;
@@ -116,7 +118,11 @@ p {
 }
 .project-link {
   decoration: none;
-  color: tomato;
+  color: #0a1536;
+}
+
+.project-link:hover {
+  text-decoration: underline;
 }
 
 a {
