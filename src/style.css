@@ -3,9 +3,7 @@ body {
 }
 
 section {
-  height: 500px;
   background-color: white;
-  border: solid black 1px;
 }
 
 .hero {
@@ -43,9 +41,18 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 p {
   margin: 0;
   font-size: 30px;
+  font-weight: 300;
+}
+
+.sub-text {
+  font-size: 15px;
   font-weight: 300;
 }
 
@@ -80,4 +87,44 @@ p {
 .socials {
   padding-bottom: 200px;
   margin: 25px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.photo {
+  width: 300px;
+}
+
+.photo-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  width: 300px;
+  height: 400px;
+  box-shadow: 5px 5px 20px grey;
+  margin: 10px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 300px;
+  border-radius: 150px;
 }
