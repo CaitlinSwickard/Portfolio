@@ -110,6 +110,12 @@ p {
   margin: 0px;
 }
 
+.project-image-one {
+  margin-top: 25px;
+  width: 450px;
+  /* border-radius: 150px; */
+}
+
 /* Project cards section */
 .photo-container {
   display: flex;
@@ -118,7 +124,7 @@ p {
 
 .project-card {
   width: 300px;
-  height: 400px;
+  height: 350px;
   box-shadow: 5px 5px 20px grey;
   margin: 10px;
 }
@@ -136,9 +142,9 @@ p {
 }
 
 .project-image {
-  margin-top: 25px;
-  width: 300px;
-  border-radius: 150px;
+  margin-top: 35px;
+  width: 280px;
+  /* border-radius: 150px; */
 }
 .project-link {
   decoration: none;
