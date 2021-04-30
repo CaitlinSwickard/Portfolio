@@ -6,8 +6,11 @@ This project is a starter Portfolio for myself. On this portfolio is a section a
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code is used
-- Inspiration
-- etc
+- Inspiration for skeleton of project:
+  Ania Kubow
+  March 10,2021
+  Build a responsive Portfolio
+  Youtube
+  https://www.youtube.com/watch?v=-D6oTPA4vXc&t=2692s
 
 ## Screen shots of webpage
