@@ -1,6 +1,7 @@
 /* playing with CSS variables */
 :root {
   --colorWhite: white;
+  --colorBlue: #0a1536;
 }
 
 /* Main CSS section for typography */
