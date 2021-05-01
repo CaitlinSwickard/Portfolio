@@ -13,11 +13,11 @@ Current place holders in this project:
 ## Acknowledgments
 
 - Inspiration for skeleton of project:
-  Ania Kubow
-  March 10,2021
-  Build a responsive Portfolio
-  Youtube
-  https://www.youtube.com/watch?v=-D6oTPA4vXc&t=2692s
+- Ania Kubow
+- March 10,2021
+- Build a responsive Portfolio
+- Youtube
+- https://www.youtube.com/watch?v=-D6oTPA4vXc&t=2692s
 
 ## Screen shots of deployed webpage
 
