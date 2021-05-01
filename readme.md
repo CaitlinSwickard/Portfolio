@@ -1,8 +1,14 @@
 # Personal Portfolio
 
-This project is a starter Portfolio for myself. On this portfolio is a section about me, projects cards and contact information. Employers can link to my GitHub account as well as my LinkedIn account through the logo icons. All project cards currently link to my GitHub page as a place holders until projects have been completed. There is also a place holder avatar until I complete a personal head shot.
+This project is a starter Portfolio website for myself. In this portfolio is a section of About me, Projects and Contact information. This site is built with flexbox and is responsive to different screen sizes. The social media icons link to my LinkedIn page as well as my GitHub page.
 
-- [View site here](https://caitlinswickard.github.io/Portfolio/)
+Current place holders in this project:
+
+- about me Lorem text filler
+- avatar of dog until I have a head shot
+- project cards link to GitHub until I have projects available to link
+
+[View site here](https://caitlinswickard.github.io/Portfolio/)
 
 ## Acknowledgments
 
