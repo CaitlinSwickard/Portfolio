@@ -4,7 +4,9 @@
   --colorBlue: #0a1536;
 }
 
+
 /* Main CSS section for typography */
+
 body {
   font-family: "Fira Sans Condensed", sans-serif;
 }
@@ -14,7 +16,6 @@ section {
 }
 
 .hero {
-  /* background-color: var(--colorBlue); */
   background: rgb(74,110,110);
   background: linear-gradient(0deg, rgba(74,110,110,1) 2%, rgba(8,13,62,1) 70%);
   height: 100vh;
@@ -112,7 +113,9 @@ hr {
   margin-inline-end: 60px;
 }
 
+
 /* Largest card */
+
 .project-section-one {
   display: flex;
   flex-direction: column;
@@ -185,10 +188,11 @@ a {
   color: var(--colorWhite);
 }
 
+
 /* Footer */
+
 footer {
   height: 300px;
-  /* background-color: var(--colorBlue); */
   background: rgb(56,85,85);
   background: linear-gradient(0deg, rgba(56,85,85,1) 2%, rgba(8,13,62,1) 70%);
   color: var(--colorWhite);
