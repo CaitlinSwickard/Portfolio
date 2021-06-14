@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200;300;400;700;800&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ff242710e.js" crossorigin="anonymous"></script>
     <title>Caitlin Swickard - Portfolio</title>
 </head>
 
@@ -19,12 +20,13 @@
     <section class="hero">
         <!-- Header links to specific areas on page -->
         <nav>
-            <ul>
+            <ul id="nav-list">
                 <li><a class="nav" href="#about-me">About</a></li>
                 <li><a class="nav" href="#projects">Projects</a></li>
                 <li><a class="nav" href="#contact">Contact</a></li>
                 <li><a class="nav" href="">Resume</a></li>
             </ul>
+            <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
         </nav>
         <!-- Main header -->
         <main class="name-container">
@@ -65,7 +67,8 @@
     </section>
 
     <hr>
-
+    <!-- project cards -->
+    <h2>Projects</h2>
     <div class="container-sm" id="project-1">
         <div class="col d-flex justify-content-center">
             <div class="card" style="width: 45rem;">
@@ -176,6 +179,7 @@
     <!-- Footer contact information -->
     <footer id="contact">
         <h2>Contact me</h2>
+        <p>Caitlin6029@gmail.com</p>
 
         <form action="https://formsubmit.co/caitlin6029@gmail.com" method="POST">
             <input type="text" name="name" placeholder="Name" required>
@@ -191,7 +195,7 @@
                 </svg></a>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
