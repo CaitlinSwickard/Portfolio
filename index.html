@@ -20,10 +20,10 @@
         <!-- Header links to specific areas on page -->
         <nav>
             <ul>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="">Resume</a></li>
+                <li><a class="nav" href="#about-me">About</a></li>
+                <li><a class="nav" href="#projects">Projects</a></li>
+                <li><a class="nav" href="#contact">Contact</a></li>
+                <li><a class="nav" href="">Resume</a></li>
             </ul>
         </nav>
         <!-- Main header -->
@@ -66,46 +66,55 @@
 
     <hr>
 
-    <div class="container">
-        <div class="card" style="width: 45rem;">
-            <img src="src/images/Project1.png" class="card-img-top"
-                alt="girl with headset on, homepage of urban cipher">
-            <div class="card-body">
-                <h5 class="card-title">Urban Cipher</h5>
-                <a href="https://github.com/maximosandoval/urban-cipher" class="card-link">Github Repo</a>
-                <a href="https://maximosandoval.github.io/urban-cipher/" class="card-link2">Deployed Page</a>
+    <div class="container-sm" id="project-1">
+        <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 45rem;">
+                <img src="src/images/Project1.png" class="card-img-top"
+                    alt="girl with headset on, homepage of urban cipher">
+                <div class="card-body">
+                    <h5 class="card-title">Urban Cipher</h5>
+                    <a href="https://github.com/maximosandoval/urban-cipher" target="_blank" class="card-link">Github
+                        Repo</a>
+                    <a href="https://maximosandoval.github.io/urban-cipher/" target="_blank" class="card-link2">Deployed
+                        Page</a>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col"></div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="card-link3">Card link</a>
-                    <a href="#" class="card-link4">Another link</a>
+    <div id="project-cards">
+        <div class="container-sm" id="project-section">
+            <div class="row">
+                <div class="col d-flex justify-content-center"></div>
+                <div class="card" style="width: 18rem;">
+                    <img src="src/images/Weather-DB.png" class="card-img-top" alt="5 day weather forecast">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <a href="https://github.com/CaitlinSwickard/API-Weather-Dashboard" target="_blank"
+                            class="card-link3">Github Repo</a>
+                        <a href="https://caitlinswickard.github.io/API-Weather-Dashboard/" target="_blank"
+                            class="card-link4">Deployed Page</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="card-link5">Card link</a>
-                    <a href="#" class="card-link6">Another link</a>
+                <div class="card" style="width: 18rem;">
+                    <img src="src/images/Workday-planner.png" class="card-img-top" alt="daily planner with hours 9-5">
+                    <div class="card-body">
+                        <h5 class="card-title">Simple Workday Planner</h5>
+                        <a href="https://github.com/CaitlinSwickard/Work-day-planner" target="_blank"
+                            class="card-link5">Github Repo</a>
+                        <a href="https://caitlinswickard.github.io/Work-day-planner/" target="_blank"
+                            class="card-link6">Deployed Pages</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="card-link7">Card link</a>
-                    <a href="#" class="card-link8">Another link</a>
+                <div class="card" style="width: 18rem;">
+                    <img src="src/images/Password-gen.png" class="card-img-top" alt="password generated in box">
+                    <div class="card-body">
+                        <h5 class="card-title">Password Generator</h5>
+                        <a href="https://github.com/CaitlinSwickard/Password-Generator-Challenge" target="_blank"
+                            class="card-link7">Github Repo</a>
+                        <a href="https://caitlinswickard.github.io/Password-Generator-Challenge/" target="_blank"
+                            class="card-link8">Deployed Page</a>
+                    </div>
                 </div>
             </div>
         </div>

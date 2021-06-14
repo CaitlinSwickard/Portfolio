@@ -113,6 +113,32 @@ hr {
   margin-inline-end: 60px;
 }
 
+/* bootstrap cards css */
+
+/* #project-1 {
+  display: flex;
+  justify-content: space-around;
+} */
+/* #project-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#project-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+} */
+
+
+
+
+
+
+
+
 
 /* Largest card */
 
@@ -183,7 +209,7 @@ hr {
   color: var(--colorBlue);
 }
 
-a {
+.nav {
   text-decoration: none;
   color: var(--colorWhite);
 }
