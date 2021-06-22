@@ -34,7 +34,6 @@ ul {
   font-size: 30px;
 }
 
-
 li {
   text-decoration: none;
   font-size: 30px;
@@ -212,6 +211,12 @@ h2 {
     display: flex;
     flex-wrap: wrap;
   }
+  .project-card {
+    width: 455px;
+    height: 400px;
+    /* margin: 0px; */
+    padding: 0%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -276,7 +281,7 @@ footer {
   }
 
   .hero {
-    /* padding: 0%; */
+    padding: 0%;
   }
 
   h1 {
@@ -291,13 +296,9 @@ footer {
     font-size: 30px;
   }
 
-
-}
-
-
-
-/* @media screen and (max-width: 600px) {
-  .hero {
+  footer {
+    padding: 0%;
     width: 100%;
+  }
+
 }
-} */
