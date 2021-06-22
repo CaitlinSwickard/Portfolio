@@ -137,6 +137,7 @@ h2 {
 .photo {
   width: 300px;
   border-radius: 150px;
+  padding-left: 20px;
 }
 
 .photo-container {
@@ -162,7 +163,7 @@ h2 {
   width: 600px;
   height: 400px;
   box-shadow: 8px 8px 40px var(--colorBlue);
-  margin: 0px;
+  /* margin: 0px; */
   transition: all .2s ease-in-out; 
 }
 
@@ -210,7 +211,19 @@ h2 {
   .project-container {
     display: flex;
     flex-wrap: wrap;
-    /* margin-top: 20px; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-card {
+    width: 600px;
+    height: 400px;
+    /* margin: 0px; */
+    padding: 0%;
+  }
+  
+  .sub-section-cards {
+    padding: 0%;
   }
 }
 
@@ -243,7 +256,7 @@ footer {
 
 
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 600px) {
   body {
     display: flex;
     flex-wrap: wrap;
@@ -259,7 +272,32 @@ footer {
     border-radius: 150px;
     display: flex;
     flex-direction: column-reverse;
+    padding: 50px;
+  }
+
+  .hero {
+    /* padding: 0%; */
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
   }
 
 
 }
+
+
+
+/* @media screen and (max-width: 600px) {
+  .hero {
+    width: 100%;
+}
+} */
