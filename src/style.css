@@ -211,19 +211,17 @@ h2 {
     display: flex;
     flex-wrap: wrap;
   }
-  .project-card {
+  /* .project-card {
     width: 455px;
     height: 400px;
-    /* margin: 0px; */
     padding: 0%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 600px) {
   .project-card {
     width: 600px;
     height: 400px;
-    /* margin: 0px; */
     padding: 0%;
   }
   
